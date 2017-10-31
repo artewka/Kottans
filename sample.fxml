@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="337.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <StackPane prefHeight="93.0" prefWidth="300.0">
+         <children>
+             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e1f1ff" height="50.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+             <Label fx:id="output" alignment="CENTER" contentDisplay="TEXT_ONLY" prefHeight="26.0" prefWidth="174.0" />
+         </children>
+      </StackPane>
+      <HBox alignment="TOP_CENTER" prefHeight="55.0" prefWidth="300.0" spacing="20.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#num" prefHeight="40.0" prefWidth="40.0" style="-fx-font-weight: bold; -fx-font-size: 16; -fx-border-color: #D3D3D3;" text="1">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#num" prefHeight="40.0" prefWidth="40.0" style="-fx-font-weight: bold; -fx-font-size: 16; -fx-border-color: #D3D3D3;" text="2">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#num" prefHeight="40.0" prefWidth="40.0" style="-fx-font-weight: bold; -fx-font-size: 16; -fx-border-color: #D3D3D3;" text="3">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#cancel" prefHeight="40.0" prefWidth="84.0" style="-fx-background-color: #D3D3D3; -fx-font-weight: bold; -fx-background-radius: 22; -fx-font-size: 16; -fx-text-fill: red; -fx-border-color: red; -fx-border-radius: 20;" text="Cancel">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+         </children></HBox>
+      <HBox alignment="TOP_CENTER" prefHeight="56.0" prefWidth="300.0" spacing="20.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#num" prefHeight="40.0" prefWidth="40.0" style="-fx-font-weight: bold; -fx-font-size: 16; -fx-border-color: #D3D3D3;" text="4">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#num" prefHeight="40.0" prefWidth="40.0" style="-fx-font-weight: bold; -fx-font-size: 16; -fx-border-color: #D3D3D3;" text="5">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#num" prefHeight="40.0" prefWidth="40.0" style="-fx-font-weight: bold; -fx-font-size: 16; -fx-border-color: #D3D3D3;" text="6">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#clear" prefHeight="40.0" prefWidth="84.0" style="-fx-background-color: #D3D3D3; -fx-font-weight: bold; -fx-background-radius: 22; -fx-font-size: 16; -fx-text-fill: yellow; -fx-border-color: yellow; -fx-border-radius: 20;" text="Clear">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+         </children>
+      </HBox>
+      <HBox alignment="TOP_CENTER" prefHeight="58.0" prefWidth="300.0" spacing="20.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#num" prefHeight="40.0" prefWidth="40.0" style="-fx-font-weight: bold; -fx-font-size: 16; -fx-border-color: #D3D3D3;" text="7">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#num" prefHeight="40.0" prefWidth="40.0" style="-fx-font-weight: bold; -fx-font-size: 16; -fx-border-color: #D3D3D3;" text="8">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#num" prefHeight="40.0" prefWidth="40.0" style="-fx-font-weight: bold; -fx-font-size: 16; -fx-border-color: #D3D3D3;" text="9">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#enter" prefHeight="40.0" prefWidth="82.0" style="-fx-background-color: #D3D3D3; -fx-font-weight: bold; -fx-background-radius: 22; -fx-font-size: 16; -fx-text-fill: green; -fx-border-color: green; -fx-border-radius: 20;" text="Enter">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+         </children>
+      </HBox>
+      <HBox alignment="TOP_CENTER" prefHeight="46.0" prefWidth="300.0" spacing="16.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#rnd" prefHeight="45.0" prefWidth="47.0" style="-fx-text-fill: blue; -fx-font-weight: bold; -fx-background-radius: 22; -fx-border-color: blue; -fx-border-radius: 20;" text="rnd" />
+            <Button mnemonicParsing="false" onAction="#num" prefHeight="40.0" prefWidth="40.0" style="-fx-font-weight: bold; -fx-font-size: 16; -fx-border-color: #D3D3D3;" text="0">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#hide" prefHeight="60.0" prefWidth="59.0" style="-fx-text-fill: blue; -fx-font-weight: bold; -fx-background-radius: 22; -fx-border-color: blue; -fx-border-radius: 20;" text="hide" />
+            <Button mnemonicParsing="false" onAction="#toshow" prefHeight="45.0" prefWidth="71.0" style="-fx-text-fill: blue; -fx-font-weight: bold; -fx-background-radius: 22; -fx-border-color: blue; -fx-border-radius: 20; -fx-font-size: 12;" text="to show">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+         </children>
+      </HBox>
+      <AnchorPane prefHeight="24.0" prefWidth="300.0" />
+   </children>
+</VBox>
